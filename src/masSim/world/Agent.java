@@ -887,7 +887,7 @@ public class Agent extends BaseElement implements IAgent, IScheduleUpdateEventLi
 	public void getLapsedTime() {
 		lapsedTime = localScheduler.lapsedTime + lapsedTime + currentSchedule.lapsedTime;
 		
-		String filePath = "C:" + "\\" + "Users" + "\\" + "k_h247" + "\\" + "Data" + "\\" + label;
+		String filePath = "C:" + "\\" + "Users" + "\\" + "Sophie" + "\\" + "Data" + "\\" + label;
 
 		try {
 			File file = new File(filePath);
